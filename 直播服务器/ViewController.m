@@ -32,7 +32,8 @@
 - (void)testModel
 {
       TWRoomItem *room = [TWRoomItem room];
-    room.roomName = @"799Room";
+
+    
     /*
      runTime : 获取一个类中所以属性()
      NSMutableDictionary *dicM = [NSMutableDictionary dictionary];
