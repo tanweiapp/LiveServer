@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311E709F1F175ADD00396773 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E709E1F175ADD00396773 /* main.m */; };
+		311E70A21F175ADD00396773 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E70A11F175ADD00396773 /* AppDelegate.m */; };
+		311E70A51F175ADD00396773 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E70A41F175ADD00396773 /* ViewController.m */; };
+		311E70A81F175ADD00396773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311E70A61F175ADD00396773 /* Main.storyboard */; };
+		311E70AA1F175ADD00396773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311E70A91F175ADD00396773 /* Assets.xcassets */; };
+		311E70AD1F175ADD00396773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311E70AB1F175ADD00396773 /* LaunchScreen.storyboard */; };
+		311E70B81F175ADE00396773 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E70B71F175ADE00396773 /* _____Tests.m */; };
+		311E70C31F175ADE00396773 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E70C21F175ADE00396773 /* _____UITests.m */; };
+		311E70D21F175D2400396773 /* TWRoomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E70D11F175D2400396773 /* TWRoomItem.m */; };
+		86C6D42D047C2C42E33D063E /* libPods-直播服务器.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF2832A8AD2FB7A64E1B09B /* libPods-直播服务器.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		311E70B41F175ADE00396773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 311E70921F175ADD00396773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 311E70991F175ADD00396773;
+			remoteInfo = "直播服务器";
+		};
+		311E70BF1F175ADE00396773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 311E70921F175ADD00396773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 311E70991F175ADD00396773;
+			remoteInfo = "直播服务器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		275768F31F043BA901A3F3CB /* Pods-直播服务器.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-直播服务器.debug.xcconfig"; path = "Pods/Target Support Files/Pods-直播服务器/Pods-直播服务器.debug.xcconfig"; sourceTree = "<group>"; };
+		311E709A1F175ADD00396773 /* 直播服务器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "直播服务器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311E709E1F175ADD00396773 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		311E70A01F175ADD00396773 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		311E70A11F175ADD00396773 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		311E70A31F175ADD00396773 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		311E70A41F175ADD00396773 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		311E70A71F175ADD00396773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		311E70A91F175ADD00396773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		311E70AC1F175ADD00396773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		311E70AE1F175ADD00396773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311E70B31F175ADE00396773 /* 直播服务器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "直播服务器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311E70B71F175ADE00396773 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		311E70B91F175ADE00396773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311E70BE1F175ADE00396773 /* 直播服务器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "直播服务器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311E70C21F175ADE00396773 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		311E70C41F175ADE00396773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311E70D01F175D2400396773 /* TWRoomItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWRoomItem.h; sourceTree = "<group>"; };
+		311E70D11F175D2400396773 /* TWRoomItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWRoomItem.m; sourceTree = "<group>"; };
+		4716CA6748052D5C3DF29A4F /* Pods-直播服务器.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-直播服务器.release.xcconfig"; path = "Pods/Target Support Files/Pods-直播服务器/Pods-直播服务器.release.xcconfig"; sourceTree = "<group>"; };
+		CDF2832A8AD2FB7A64E1B09B /* libPods-直播服务器.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-直播服务器.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		311E70971F175ADD00396773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C6D42D047C2C42E33D063E /* libPods-直播服务器.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311E70B01F175ADE00396773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311E70BB1F175ADE00396773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EF4BE43817E7D79622728D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2832A8AD2FB7A64E1B09B /* libPods-直播服务器.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		311E70911F175ADD00396773 = {
+			isa = PBXGroup;
+			children = (
+				311E709C1F175ADD00396773 /* 直播服务器 */,
+				311E70B61F175ADE00396773 /* 直播服务器Tests */,
+				311E70C11F175ADE00396773 /* 直播服务器UITests */,
+				311E709B1F175ADD00396773 /* Products */,
+				F03012323601F0A7BB13D4A2 /* Pods */,
+				18EF4BE43817E7D79622728D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		311E709B1F175ADD00396773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				311E709A1F175ADD00396773 /* 直播服务器.app */,
+				311E70B31F175ADE00396773 /* 直播服务器Tests.xctest */,
+				311E70BE1F175ADE00396773 /* 直播服务器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		311E709C1F175ADD00396773 /* 直播服务器 */ = {
+			isa = PBXGroup;
+			children = (
+				311E70A01F175ADD00396773 /* AppDelegate.h */,
+				311E70A11F175ADD00396773 /* AppDelegate.m */,
+				311E70A31F175ADD00396773 /* ViewController.h */,
+				311E70A41F175ADD00396773 /* ViewController.m */,
+				311E70D01F175D2400396773 /* TWRoomItem.h */,
+				311E70D11F175D2400396773 /* TWRoomItem.m */,
+				311E70A61F175ADD00396773 /* Main.storyboard */,
+				311E70A91F175ADD00396773 /* Assets.xcassets */,
+				311E70AB1F175ADD00396773 /* LaunchScreen.storyboard */,
+				311E70AE1F175ADD00396773 /* Info.plist */,
+				311E709D1F175ADD00396773 /* Supporting Files */,
+			);
+			path = "直播服务器";
+			sourceTree = "<group>";
+		};
+		311E709D1F175ADD00396773 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				311E709E1F175ADD00396773 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		311E70B61F175ADE00396773 /* 直播服务器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				311E70B71F175ADE00396773 /* _____Tests.m */,
+				311E70B91F175ADE00396773 /* Info.plist */,
+			);
+			path = "直播服务器Tests";
+			sourceTree = "<group>";
+		};
+		311E70C11F175ADE00396773 /* 直播服务器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				311E70C21F175ADE00396773 /* _____UITests.m */,
+				311E70C41F175ADE00396773 /* Info.plist */,
+			);
+			path = "直播服务器UITests";
+			sourceTree = "<group>";
+		};
+		F03012323601F0A7BB13D4A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				275768F31F043BA901A3F3CB /* Pods-直播服务器.debug.xcconfig */,
+				4716CA6748052D5C3DF29A4F /* Pods-直播服务器.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		311E70991F175ADD00396773 /* 直播服务器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311E70C71F175ADE00396773 /* Build configuration list for PBXNativeTarget "直播服务器" */;
+			buildPhases = (
+				75831829AA1D0CE07743D10C /* [CP] Check Pods Manifest.lock */,
+				311E70961F175ADD00396773 /* Sources */,
+				311E70971F175ADD00396773 /* Frameworks */,
+				311E70981F175ADD00396773 /* Resources */,
+				16992700DE89740A654A5F1B /* [CP] Embed Pods Frameworks */,
+				3DE3A68BD63318D3ACB05FCA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "直播服务器";
+			productName = "直播服务器";
+			productReference = 311E709A1F175ADD00396773 /* 直播服务器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		311E70B21F175ADE00396773 /* 直播服务器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311E70CA1F175ADE00396773 /* Build configuration list for PBXNativeTarget "直播服务器Tests" */;
+			buildPhases = (
+				311E70AF1F175ADE00396773 /* Sources */,
+				311E70B01F175ADE00396773 /* Frameworks */,
+				311E70B11F175ADE00396773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				311E70B51F175ADE00396773 /* PBXTargetDependency */,
+			);
+			name = "直播服务器Tests";
+			productName = "直播服务器Tests";
+			productReference = 311E70B31F175ADE00396773 /* 直播服务器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		311E70BD1F175ADE00396773 /* 直播服务器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311E70CD1F175ADE00396773 /* Build configuration list for PBXNativeTarget "直播服务器UITests" */;
+			buildPhases = (
+				311E70BA1F175ADE00396773 /* Sources */,
+				311E70BB1F175ADE00396773 /* Frameworks */,
+				311E70BC1F175ADE00396773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				311E70C01F175ADE00396773 /* PBXTargetDependency */,
+			);
+			name = "直播服务器UITests";
+			productName = "直播服务器UITests";
+			productReference = 311E70BE1F175ADE00396773 /* 直播服务器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		311E70921F175ADD00396773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TW;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "耐克了解了";
+				TargetAttributes = {
+					311E70991F175ADD00396773 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					311E70B21F175ADE00396773 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 311E70991F175ADD00396773;
+					};
+					311E70BD1F175ADE00396773 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 311E70991F175ADD00396773;
+					};
+				};
+			};
+			buildConfigurationList = 311E70951F175ADD00396773 /* Build configuration list for PBXProject "直播服务器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 311E70911F175ADD00396773;
+			productRefGroup = 311E709B1F175ADD00396773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				311E70991F175ADD00396773 /* 直播服务器 */,
+				311E70B21F175ADE00396773 /* 直播服务器Tests */,
+				311E70BD1F175ADE00396773 /* 直播服务器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		311E70981F175ADD00396773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311E70AD1F175ADD00396773 /* LaunchScreen.storyboard in Resources */,
+				311E70AA1F175ADD00396773 /* Assets.xcassets in Resources */,
+				311E70A81F175ADD00396773 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311E70B11F175ADE00396773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311E70BC1F175ADE00396773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16992700DE89740A654A5F1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-直播服务器/Pods-直播服务器-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DE3A68BD63318D3ACB05FCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-直播服务器/Pods-直播服务器-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75831829AA1D0CE07743D10C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		311E70961F175ADD00396773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311E70A51F175ADD00396773 /* ViewController.m in Sources */,
+				311E70A21F175ADD00396773 /* AppDelegate.m in Sources */,
+				311E70D21F175D2400396773 /* TWRoomItem.m in Sources */,
+				311E709F1F175ADD00396773 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311E70AF1F175ADE00396773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311E70B81F175ADE00396773 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311E70BA1F175ADE00396773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311E70C31F175ADE00396773 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		311E70B51F175ADE00396773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 311E70991F175ADD00396773 /* 直播服务器 */;
+			targetProxy = 311E70B41F175ADE00396773 /* PBXContainerItemProxy */;
+		};
+		311E70C01F175ADE00396773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 311E70991F175ADD00396773 /* 直播服务器 */;
+			targetProxy = 311E70BF1F175ADE00396773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		311E70A61F175ADD00396773 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				311E70A71F175ADD00396773 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		311E70AB1F175ADD00396773 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				311E70AC1F175ADD00396773 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		311E70C51F175ADE00396773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		311E70C61F175ADE00396773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		311E70C81F175ADE00396773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 275768F31F043BA901A3F3CB /* Pods-直播服务器.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "直播服务器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qianchengfinancial.OMS.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		311E70C91F175ADE00396773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4716CA6748052D5C3DF29A4F /* Pods-直播服务器.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "直播服务器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qianchengfinancial.OMS.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		311E70CB1F175ADE00396773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "直播服务器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qianchengfinancial.OMS.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/直播服务器.app/直播服务器";
+			};
+			name = Debug;
+		};
+		311E70CC1F175ADE00396773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "直播服务器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qianchengfinancial.OMS.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/直播服务器.app/直播服务器";
+			};
+			name = Release;
+		};
+		311E70CE1F175ADE00396773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "直播服务器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qianchengfinancial.OMS.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "直播服务器";
+			};
+			name = Debug;
+		};
+		311E70CF1F175ADE00396773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "直播服务器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qianchengfinancial.OMS.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "直播服务器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		311E70951F175ADD00396773 /* Build configuration list for PBXProject "直播服务器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311E70C51F175ADE00396773 /* Debug */,
+				311E70C61F175ADE00396773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		311E70C71F175ADE00396773 /* Build configuration list for PBXNativeTarget "直播服务器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311E70C81F175ADE00396773 /* Debug */,
+				311E70C91F175ADE00396773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		311E70CA1F175ADE00396773 /* Build configuration list for PBXNativeTarget "直播服务器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311E70CB1F175ADE00396773 /* Debug */,
+				311E70CC1F175ADE00396773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		311E70CD1F175ADE00396773 /* Build configuration list for PBXNativeTarget "直播服务器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311E70CE1F175ADE00396773 /* Debug */,
+				311E70CF1F175ADE00396773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 311E70921F175ADD00396773 /* Project object */;
+}
